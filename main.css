@@ -105,6 +105,9 @@ figure {
   padding: 15px;
   position: relative;
 }
+figure:nth-of-type(2n) {
+  margin-top: 50px;
+}
 
 img {
   width: 80%;
@@ -187,6 +190,15 @@ footer {
 
   figure {
     width: 33.3%;
+  }
+
+  figure:nth-of-type(2n)
+  {
+    margin-top: 0;
+  }
+
+  figure:nth-of-type(2), figure:nth-of-type(5) {
+    margin-top: 50px;
   }
 
   figure p {
